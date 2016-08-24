@@ -15,6 +15,7 @@
    "manifest_version": 2,
    "name": "Magnet Links for Torrentz2",
    "update_url": "https://github.com/blha303/torrentz2-magnet",
-   "version": "0.9.4-t2",
+   "version": "0.10.4",
+   "version_name": "0.9.4-t2",
    "web_accessible_resources": [ "icon16.png" ]
 }
