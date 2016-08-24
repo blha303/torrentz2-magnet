@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "script.js" ],
+      "matches": [ "*://torrentz.eu/*", "*://torrentz.ch/*", "*://torrentz.me/*", "*://torrentz.in/*", "*://torrentz.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Adds magnet links to torrent files on Torrentz.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApRBP8oeMnF2RKLk0pLU13rwTYJlKyxF3tEN8l8/ComcNR5mnrH5PTGJ8DrLEWpaUTmk5kH2Y7fhkYFWF4x+Qr5uPLgr3dIlWqlG1vKTzMcxlgLmpdPnZuSdTrSg7ISUrkLH7zeBbv0MDIL9UIUXX30nyUfilyKQZjflyZJjCNFqXom4dT6J5IZ6zI163KbSVwcxwvpRLmlzkpBcG78k4hoMMbvowXnuS5omu59z2KnS877g5/6ZOvOe24GOtrkQ8IxFgNgk5enIQ+hwE9JHv/DESDAHBD8yjenDLg4Adog69w5DLSjSDxaBTOoqIeiYUN6jNwKbEZ4s3K5DseYb3eQIDAQAB",
+   "manifest_version": 2,
+   "name": "Magnet Links for Torrentz",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.2",
+   "web_accessible_resources": [ "icon16.png" ]
+}
