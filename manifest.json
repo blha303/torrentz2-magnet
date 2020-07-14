@@ -2,7 +2,7 @@
    "content_scripts": [ {
       "css": [ "style.css" ],
       "js": [ "script.js" ],
-      "matches": [ "*://torrentz.eu/*", "*://torrentz.ch/*", "*://torrentz.me/*", "*://torrentz.in/*", "*://torrentz.com/*", "*://torrentz2.eu/*" ],
+      "matches": [ "*://torrentz.eu/*", "*://torrentz.ch/*", "*://torrentz.me/*", "*://torrentz.in/*", "*://torrentz.com/*", "*://torrentz2.eu/*", "*://torrentz.is/*" ],
       "run_at": "document_end"
    } ],
    "description": "Adds magnet links to torrent files on Torrentz2.",
